@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Canvas space invador</title>
+        <link rel="shortcut icon" href="">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <img id="crate" src="images/crate.png" alt="crate" width="0" height="0">
+        <img id="battleShip" src="images/battleShip.png" alt="battleShip" width="0" height="0">
+        <img id="enemy1" src="images/enemy1.png" alt="enemy1" width="0" height="0">
+        <img id="bomb" src="images/bomb.png" alt="bomb" width="0" height="0">
+
+        <canvas id="gameCanvas" style="border:1px solid black; 
+                background-image: url('images/starBackground.jpg');
+                background-repeat: no-repeat;
+                background-size: 100% 100%">
+        </canvas>
+        <script src="JS/UIProcessing/ProcessCanvasPainting.js"></script>
+        
+        <script src="JS/Game/GameHelper.js"></script>
+        <script src="JS/Game/gameManager.js"></script>
+        <script src="JS/Game/menuManager.js"></script>
+        <script src="JS/Game/gameOptions.js"></script>
+        
+        <script src="JS/Boss/Boss.js"></script>
+        
+        <script src="JS/Upgrade/UpgradeController.js"></script>
+        
+        <script src="JS/Enemy/EnemyController.js"></script>
+        
+        <script src="JS/Game/Game.js"></script>
+        
+        <script src="JS/Player/PlayerController.js"></script>
+        <script src="JS/Player/playerProjectile.js"></script>
+        <script src="JS/Player/HandelPlayerInput.js"></script>
+    </body>
+</html>
